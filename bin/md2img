@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var md2img = require('../lib/index');
+
+// コマンドの使い方を表示
+function showUsage() {
+  console.error('TODO');
+  process.exit();
+}
+
+// コマンドライン引数が 2 つ以上だった場合、中断
+if (process.argv.length > 3) {
+  showUsage();
+}
+
+// コマンドライン引数が渡されていない場合、デフォルトとして README.md を引数とする
+var sourceFile;
+if (process.argv.length === 3) {
+  sourceFile = process.argv[2];
+} else {
+  sourceFile = 'README.md';
+}
+
+md2img(sourceFile, function(contents) {
+  process.stdout.write(contents);
+});
