@@ -1,7 +1,7 @@
 {
   "name": "md2img",
   "description": "command-tool tool to convert Markdown file into image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kohara Kazuya <reflect.results@gmail.com>",
   "bin": {
     "md2img": "./bin/md2img"
