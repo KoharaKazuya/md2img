@@ -9,14 +9,14 @@
   "dependencies": {
     "file-url": "^1.1.0",
     "github-markdown-css": "^2.4.0",
-    "phantom": "^2.1.21",
+    "puppeteer": "^0.10.2",
     "roaster": "^1.2.1"
   },
   "devDependencies": {
     "eslint": "^3.5.0"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": ">=7.6.0"
   },
   "keywords": [
     "github",
