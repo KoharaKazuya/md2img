@@ -9,8 +9,8 @@
   "dependencies": {
     "file-url": "^1.1.0",
     "github-markdown-css": "^2.4.0",
-    "puppeteer": "^0.10.2",
-    "roaster": "^1.2.1"
+    "marked": "^0.3.6",
+    "puppeteer": "^0.10.2"
   },
   "devDependencies": {
     "eslint": "^3.5.0"
