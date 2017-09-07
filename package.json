@@ -4,13 +4,14 @@
   "version": "1.0.1",
   "author": "Kohara Kazuya <reflect.results@gmail.com>",
   "bin": {
-    "md2img": "./bin/md2img"
+    "md2img": "./bin/md2img.js"
   },
   "dependencies": {
     "file-url": "^1.1.0",
     "github-markdown-css": "^2.4.0",
     "marked": "^0.3.6",
-    "puppeteer": "^0.10.2"
+    "puppeteer": "^0.10.2",
+    "yargs": "^8.0.2"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
@@ -32,7 +33,7 @@
     "url": "https://github.com/KoharaKazuya/md2img"
   },
   "scripts": {
-    "lint": "eslint lib",
-    "lint:fix": "eslint --fix lib"
+    "lint": "eslint lib bin",
+    "lint:fix": "eslint --fix lib bin"
   }
 }
