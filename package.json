@@ -24,7 +24,7 @@
   "keywords": [
     "github",
     "markdown",
-    "phantomjs"
+    "puppeteer"
   ],
   "license": "MIT",
   "main": "./lib/index",
