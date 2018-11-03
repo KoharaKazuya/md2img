@@ -7,11 +7,11 @@
     "md2img": "./bin/md2img.js"
   },
   "dependencies": {
-    "file-url": "^1.1.0",
-    "github-markdown-css": "^2.4.0",
-    "marked": "^0.3.6",
-    "puppeteer": "^0.10.2",
-    "yargs": "^8.0.2"
+    "file-url": "^2.0.2",
+    "github-markdown-css": "^2.10.0",
+    "marked": "^0.5.1",
+    "puppeteer": "^1.10.0",
+    "yargs": "^12.0.2"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
@@ -19,7 +19,7 @@
     "eslint-plugin-import": "^2.7.0"
   },
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8"
   },
   "keywords": [
     "github",

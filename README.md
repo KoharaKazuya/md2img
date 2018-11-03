@@ -7,7 +7,7 @@ command-tool tool to convert Markdown file into image
 
 ## Requirements
 
-- [Node.js 0.12+](https://nodejs.org/)
+- [Node.js 8+](https://nodejs.org/)
 
 
 ## Installation
