@@ -9,7 +9,7 @@
   "dependencies": {
     "file-url": "^3.0.0",
     "github-markdown-css": "^3.0.1",
-    "marked": "^0.6.2",
+    "marked": "^1.1.1",
     "puppeteer": "^1.10.0",
     "yargs": "^13.2.4"
   },
